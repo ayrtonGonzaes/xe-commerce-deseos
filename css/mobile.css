@@ -1,0 +1,226 @@
+@media screen and (max-width:767px) {
+    .containerHeader{
+        width: 95%;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .bag{
+        display: none;
+    }
+
+    .hamburgerContainerHeader{
+        flex-direction: column;
+    }
+
+    .containerHamburgerContent{
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .footerHamburgerContainer{
+        justify-content: center;
+    }
+
+    .textFooter {
+        display: none;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .usernameTitle h1 {
+        font-size: 2.2em;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .personalData{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .list {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .btnList:focus .arrowUp{
+        display: block;
+        color: #000;
+    }
+
+    .btnList:focus .arrowLeft{
+        display: none;
+    }
+
+    .btnList:nth-child(3) .arrowLeft{
+        display: none;
+    }
+
+    .btnList:nth-child(3) .arrowUp{
+        display: block;
+        color: #000;
+    }
+
+    .Mywishlist{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .product{
+        width: 100%;
+    }
+
+    .deleteProduct{
+        display: block;
+    }
+
+    .deleteProduct button{
+        height: 15vh;
+        padding: 0px 25px;
+        background-color: #E32B2B;
+        color:#fff;
+        border-radius: 4px;
+        font-size: 1.2em;
+        transition: all 0.3s ease;
+    }
+
+    .deleteProduct button:hover{
+        background-color: #fff;
+        color: #E32B2B;
+        transition: all 0.3s ease;
+    }
+
+    .headerProduct{
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .titleProduct{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .dataProduct{
+        padding-left: 15px;
+    }
+
+    .containerPrice{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .descriptionProduct{
+        width: 100%;
+    }
+
+    .infoTitleProduct{
+        display: none;
+    }
+
+    .iconPlus{
+        display: block;
+    }
+
+    .iconPlus > button{
+        background: transparent;
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .pulsContent{
+        position:absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .pulsContent.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .priceProduct{
+        display: block;
+    }
+
+    .btnProduct{
+        display: none;
+    }
+
+    .btnBag{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .btnEdit{
+        width: 100%;
+    }
+
+    .btnEdit button {
+        width: 100%;
+    }
+
+    .btnDelete{
+        width: 100%;
+    }
+
+    .btnDelete button {
+        width: 100%;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .infoFooter{
+        width: 95%;
+        padding-top: 50px ;
+        margin: 0 auto;
+    }
+    
+    .derechos {
+        display: none;
+    }
+    
+    .linksFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 30px 0;
+    }
+    
+    .lFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 51%;
+        gap: 0rem;
+    }
+    
+    .lineaFooterFinal{
+        display: block;
+        width: 100%;
+    }
+    
+    .derechosFinal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
+    }
+}

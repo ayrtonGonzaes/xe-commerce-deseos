@@ -1,0 +1,173 @@
+@media screen and (min-width:768px) and (max-width:1023px) { 
+    .containerHeader{
+        width: 95%;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .usernameTitle h1{
+        font-size: 2.9em;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .personalData{
+        flex-direction: row;
+    }
+
+    .list{
+        width: 35%;
+    }
+
+    .Mywishlisy{
+        width: 64%;
+    }
+
+    .dataProduct{
+        padding-left: 15px;
+    }
+
+    .deleteProduct{
+        display: block;
+    }
+
+    .deleteProduct button{
+        height: 16vh;
+        padding: 0px 25px;
+        background-color: #E32B2B;
+        color:#fff;
+        border-radius: 4px;
+        font-size: 1.2em;
+        transition: all 0.3s ease;
+    }
+
+    .deleteProduct button:hover{
+        background-color: #fff;
+        color: #E32B2B;
+        transition: all 0.3s ease;
+    }
+
+    .imageProduct{
+        width: 27%;
+    }
+
+    .headerProduct{
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .titleProduct{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .iconPlus{
+        display: block;
+    }
+
+    .iconPlus > button{
+        background: transparent;
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .pulsContent{
+        position:absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .pulsContent.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .btnProduct{
+        display: none;
+    }
+
+    .descriptionProduct{
+        width: 100%;
+    }
+
+    .infoTitleProduct{
+        display: none;
+    }
+
+    .btnBag{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btnEdit{
+        width: 100%;
+    }
+
+    .btnEdit button {
+        width: 100%;
+    }
+
+    .btnDelete{
+        width: 100%;
+    }
+
+    .btnDelete button {
+        width: 100%;
+    }
+
+    .containerFooter{
+        width: 100%;
+    }
+
+    .infoFooter{
+        width: 95%;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .infoFooter{
+        width: 95%;
+        padding-top: 50px ;
+        margin: 0 auto;
+    }
+    
+    .linksFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 30px 0;
+    }
+    
+    .lFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 51%;
+    }
+    
+    .lineaFooterFinal{
+        display: block;
+        width: 100%;
+    }
+    
+    .derechosFinal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+}
