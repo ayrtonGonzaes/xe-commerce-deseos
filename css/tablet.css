@@ -7,6 +7,29 @@
         display: none;
     }
 
+    .hamburgerMenu{
+        width: 100%;
+    }
+
+    .hamburgerContainerHeader{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contianerHamburgerContent{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .img img{
+        height: 20vh;
+    }
+
+    .footerHamburgerContainer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .usernameTitle h1{
         font-size: 2.9em;
     }
@@ -76,17 +99,6 @@
         border: none;
         font-size: 1.5em;
         cursor: pointer;
-    }
-
-    .pulsContent{
-        position:absolute;
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    .pulsContent.visible{
-        opacity: 1;
-        visibility: visible;
     }
 
     .btnProduct{

@@ -8,10 +8,6 @@ const abrirBag = document.querySelector("#openBag");
 const cerrarBag = document.querySelector("#closeBag");
 
 
-const plus = document.querySelector("#plus");
-const abrirPlus = document.querySelector("#openPlus");
-const cerrarPlus = document.querySelector("#closePlus");
-
 
 abrir.addEventListener("click", () => {
     hamburger.classList.add("visible");
@@ -29,14 +25,4 @@ abrirBag.addEventListener("click", () => {
 
 cerrarBag.addEventListener("click", () =>{
     bag.classList.remove("visible");
-})
-
-
-
-abrirPlus.addEventListener("click", () =>{
-    plus.classList.add("visible");
-})
-
-cerrarPlus.addEventListener("click", () =>{
-    plus.classList.remove("visible");
 })

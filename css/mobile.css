@@ -11,13 +11,26 @@
         display: none;
     }
 
+    .hamburgerMenu{
+        width: 100%;
+        padding: 0px;
+    }
+
     .hamburgerContainerHeader{
-        flex-direction: column;
+        width: 100%;
     }
 
     .containerHamburgerContent{
         flex-direction: column;
-        width: 95%;
+        width: 100%;
+    }
+
+    .section{
+        width: 60%;
+    }
+
+    .img img{
+        height: 20vh;
     }
 
     .footerHamburgerContainer{
